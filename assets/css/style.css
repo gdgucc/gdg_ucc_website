@@ -1,0 +1,206 @@
+@import url('gotham.css');
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #303633;
+}
+
+* {
+    font-family: 'Gotham', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.custom-navbar {
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+    padding: 0 10px;
+}
+
+.scroll-navbar {
+    background: #111;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    border: 1px solid transparent !important;
+}
+
+.div-title {
+    font-weight: bold;
+}
+
+/*FOR THE INDEX PAGE*/
+/*for the intro div*/
+.intro-div {
+    height: 100vh;
+    width: inherit;
+    background-image: url('../img/intro-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30vh 0 0 0;
+    margin: 0;
+}
+
+/*for the about div*/
+.about-div {
+    padding: 10vh 20px 25vh 20px;
+    height: auto;
+}
+
+/*for the events div*/
+.events-div {
+    padding: 10vh 20px;
+}
+
+.events-div p {
+    margin: 0;
+    padding: 0;
+    color: #f7f7f7;
+    font-size: 13px;
+}
+
+.event-item {
+    border: 1px solid#c0c0c0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.event-item img{
+    height: 150px;
+}
+
+/*for the products div*/
+.products-div {
+    padding: 10vh 20px;
+    height: auto;
+    background: #252826;
+}
+
+.products-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    overflow-x: auto;
+}
+
+.product-item-img {
+    height: 60px;
+    width: 60px;
+}
+
+.product-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resource-icon {
+    font-size: 25px;
+}
+
+/*for the contact div*/
+.contact-div {
+    padding: 10vh 10px 0px 10px;
+    background: #111
+}
+
+.contact-row section {
+    margin-bottom: 20px;
+}
+
+.contact-div li {
+    list-style-type: none;
+}
+
+.contact-div a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.contact-div a:hover {
+    color: #c0c0c0;
+}
+
+.social-icons-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons-div li{
+    margin-right: 20px;
+}
+
+.social-icons-div i.fa{
+    font-size: 20px;
+}
+
+/*FOR THE CODE OF CONDUCT PAGE*/
+.code-of-conduct-main-div {
+    padding: 20vh 20px;
+    color: #fff;
+}
+
+.code-of-conduct-row p {
+    font-size: 14px;
+}
+
+/*FOR THE WHAT WE DO PAGE*/
+.activities-div {
+    padding: 20vh 20px;
+    color: #fff;
+}
+
+.activity-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.activity-item p {
+    font-size: 14px;
+}
+
+.activity-icon-div {
+    margin-right: 10px;
+}
+
+.sub-title {
+    font-weight: bold;
+    color: #17BAEF
+}
+
+.activity-icon {
+    font-size: 45px;
+    color: #17BAEF;
+}
